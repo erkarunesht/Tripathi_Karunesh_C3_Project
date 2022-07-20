@@ -65,7 +65,13 @@ public class Restaurant {
                 +"Menu:"+"\n"+getMenu());
 
     }
-
+    // Failing test cases written for the method/s to be implemented in part 3
+    //public void getTotalCost(List<String> selectedItems) {
+    //        int totalcost = 0;
+    //        for (String itemname : selectedItems) {
+    //            totalcost = totalcost + findItemByName(itemname).getPrice();
+    //        }
+    //        return totalcost;
     public String getName() {
         return name;
     }
